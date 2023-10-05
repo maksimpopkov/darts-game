@@ -4,7 +4,6 @@ namespace DartsGame
 {
     public static class Darts
     {
-        
         public static int GetScore(double x, double y)
         {
             double r = Math.Sqrt((x * x) + (y * y));
